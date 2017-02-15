@@ -1,6 +1,6 @@
 # Week 2 Project
 
-## Your name should appear here!
+## Preeta Raghunathan
 
 <!-- leave this material as is -->
 Compiled on `r date()`.
@@ -11,3 +11,56 @@ library(DataComputing)
 <!-- put your content after this line -->
 
 Here is my content!
+
+```{r}
+download.file("http://tiny.cc/dcf/Library-small.rda", 
+              dest="Library-small.rda")
+```
+
+The data was downloaded from a link provided by Professor Kaplan. It contains library book data from Macalester College.
+
+## Basics
+
+Loading the data:
+
+```{r}
+load("Library-small.rda")
+```
+```{r}
+head(Inv)
+names(Inv)
+```
+
+Dimensions of the dataset
+
+```{r}
+dim(Inv)
+```
+
+Looking at the dataset Bks :
+
+```{r}
+head(Bks)
+names(Bks)
+dim(Bks)
+```
+
+The dataset Inv contains 2000 entries/ cases which seem to be books and each case has 18 parameters. Similarly, the dataset Bks contains 3765 entries with 15 parameters for each entry.
+
+
+
+```{r}
+Inv %>%
+  group_by(Current.Status) %>%
+  tally()
+```
+
+```{r}
+Inv %>%
+  group_by(Issued.Count) %>%
+  tally()
+```
+
+
+
+

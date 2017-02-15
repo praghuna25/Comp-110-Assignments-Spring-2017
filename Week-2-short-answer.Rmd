@@ -1,6 +1,6 @@
 # Week 2 Short Answer Questions
 
-## Your name should appear here!
+## Preeta Raghunathan
 
 <!-- leave this material as is -->
 Compiled on `r date()`.
@@ -11,3 +11,127 @@ library(DataComputing)
 <!-- put your content after this line -->
 
 Here is my content!
+
+## Chapter 1
+
+1.1
+Taffy : Value of variable
+year: categorical
+sex: categorical
+name: categorical
+count: quantitative
+
+1.2
+ - Last name and first name not separated well
+ - Office time should have 2 coloums - start and end
+ - Number of states has both quatitative and categorical
+ 
+ 1.4
+ 1 . Variables : 
+ Table A : Year, Algeria, Brazil, Colombia
+ Tabe B : Country, Y2000, Y2001
+ Table C : Country, Year, Value
+ 
+ 2. In Table A, Each case is a year 
+ In Table B, each case is a country
+ In Table C each case is a country in a particular year
+ 
+ 1.5
+- 8 variables
+- Each case is an airport
+- faa, name, ds, tzone, tz : categorical lat, long, alt : quantitative 
+
+## Chapter 2
+
+2.2
+2 and 3
+
+2.3
+Current Population Survey
+
+2.4
+Package should be named using = not <-
+
+2.6
+3. not legit because it is in quotes 
+5. should have no space between words
+9. function name cant be variable name
+
+2.7
+1. 19 variables
+2. 336776 cases
+3. flight departing NYC
+4. Categorical : year,month,day, carrier, flight, origin,dest, time_hour, tailnum
+Quant : sched_dep_time,sched_arr_time, dep_time,arr_time, dep_delay,arr_delay, hour,minute, air_time, distance, time_hour
+
+2.8
+a. 3
+b. 1
+c. 4
+d. 2
+e. 5
+
+2.9
+can be used in name : . - _
+in string : all
+
+2.10
+1. 76 variables
+2. Trunk fat mass
+3. 23018
+4. DEM : Democratic
+REP : republican
+LIB : Libertaraian
+UNA : Unaffiliated
+
+## Chapter 3
+
+3.1
+fireplace <- fireplace %>% filter(name == "wood") %>%
+fireplace()
+(fireplace == "brick")
+fireplace = ""
+
+3.2
+BabyNames has to be before the %>% symbol
+
+3.3
+help has wrong arguments
+
+3.4
+1. b
+2. a
+3. d
+4. d
+5. a
+6. c
+7. c
+8. a
+9. c
+10. a
+11. c
+12.a
+13. a
+14. d
+15. d
+16. a
+17. d
+18. a
+19. d
+
+3.5
+Brain weight
+83 cases
+Each entry in a dataset - in this case an animal
+herbi, omni, carni, insecti
+
+3.6
+c. Will find mean, not count
+
+
+   
+  
+  
+
+
+
